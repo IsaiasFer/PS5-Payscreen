@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purchase your PS5</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&family=Karla:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="PS5-PaymentPage">
+      <section class="pics">
+        <img class="ps5image ps5-joystick" src="joystickps5.png" alt="" />
+        <img
+          class="ps5image ps5-joystick_flechas"
+          src="joystickps5sinfechas.png"
+          alt=""
+        />
+        <img class="ps5image ps5" src="ps5.png" alt="" />
+        <div class="productDescription">
+          <p>PS5, 2021</p>
+          <span>$499,99</span>
+        </div>
+        
+      </section>
+      <section class="form">
+        <nav>
+          <ul>
+            <li><a href="./ExplicationPage.html">
+              Back to shipping details
+            </a></li></li>
+            <li class="playstation"><a href="./ExplicationPage.html">
+              Playstation<sup>©</sup>
+            </a></li>
+          </ul>
+        </nav>
+        <h1>PAYMENT DETAILS</h1>
+        <form>
+          <div class="form-group">
+            <label>Cardholder</label>
+            <input type="" />
+          </div>
+          <div class="form-group">
+            <label for="ccn">Card number:</label>
+            <input
+              class="input-MasterCard"
+              id="ccn"
+              type="tel"
+              inputmode="numeric"
+              pattern="[0-9\s]{13,19}"
+              autocomplete="cc-number"
+              maxlength="19"
+              placeholder="xxxx xxxx xxxx xxxx"
+            />
+          </div>
+          <div class="card-data">
+            <div class="form-group">
+              <label>Expiration date</label>
+              <div class="inputs-ED">
+                <input list="Month" name="browser" />
+                <datalist id="Month">
+                  <option value="01"></option>
+                  <option value="02"></option>
+                  <option value="03"></option>
+                  <option value="04"></option>
+                  <option value="05"></option>
+                  <option value="06"></option>
+                  <option value="07"></option>
+                  <option value="08"></option>
+                  <option value="09"></option>
+                  <option value="10"></option>
+                  <option value="11"></option>
+                  <option value="13"></option>
+                  <option value="14"></option>
+                  <option value="15"></option>
+                  <option value="16"></option>
+                  <option value="17"></option>
+                  <option value="18"></option>
+                  <option value="19"></option>
+                  <option value="20"></option>
+                  <option value="21"></option>
+                  <option value="22"></option>
+                  <option value="23"></option>
+                  <option value="24"></option>
+                  <option value="25"></option>
+                  <option value="26"></option>
+                  <option value="27"></option>
+                  <option value="28"></option>
+                  <option value="29"></option>
+                  <option value="30"></option>
+                  <option value="31"></option>
+                  
+                </datalist>
+                <input list="Year" name="browser" />
+                <datalist id="Year">
+                  <option value="01"></option>
+                  <option value="02"></option>
+                  <option value="03"></option>
+                  <option value="04"></option>
+                  <option value="05"></option>
+                  <option value="06"></option>
+                  <option value="07"></option>
+                  <option value="08"></option>
+                  <option value="09"></option>
+                  <option value="10"></option>
+                  <option value="11"></option>
+                  <option value="12"></option>
+                </datalist>
+              </div>
+            </div>
+            <div class="form-group cvc">
+              <label>CVC</label>
+              <input type="" placeholder="***"/>
+            </div>
+          </div>
+        </form>
+        <div class="options">
+          <a href="./ExplicationPage.html">
+            <h3>Cancel</h3>
+          </a>
+          <button class="buyButton">
+            <a href="./ExplicationPage.html">
+              <h3>Buy</h3>
+            </a>
+          </button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
